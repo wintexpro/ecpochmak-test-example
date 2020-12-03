@@ -1,0 +1,17 @@
+{
+  "name": "ecpochmak-test-example",
+  "version": "0.0.1",
+  "description": "Test examples",
+  "main": "index.js",
+  "repository": "https://github.com/wintexpro/ecpochmak-test-example.git",
+  "author": "Marat Chiraev",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "tsc tests/example.test.ts",
+    "test": "echpochmak-cli test -p ./tests/example.test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "echpochmak": "^0.3.2"
+  }
+}
